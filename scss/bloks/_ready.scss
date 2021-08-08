@@ -1,0 +1,29 @@
+.ready{
+    &__wrap{ 
+        background-image:url(../img/Group9.png);
+        background-repeat:no-repeat;
+        padding: 76px 260px 76px 263px;
+        display: flex;
+        align-items: center;
+    }
+    &__title{
+        width: 504px;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        margin-right: 260px;
+        color: #012F34;     
+    }
+    &__link{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #012F34;
+        padding: 9px 29px 11px 28px;
+        display: inline-block;
+        text-decoration: none;  
+        background: #F67E7E;
+        border: 2px solid #012F34;
+        border-radius: 24px;
+    }
+}

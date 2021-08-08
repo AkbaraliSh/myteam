@@ -1,0 +1,42 @@
+.intro{
+    // background-image: url(../img/Group7.png);
+    // background-repeat: no-repeat;
+    // background-size: 50%;
+    // // background-image: url(../img/talent2.png);
+    // // background-repeat: no-repeat;
+    &__wrap{
+        background: #014E56;
+        padding: 65px 165px 250px 165px;
+        display: flex;
+    }
+    &__title{
+        width: 635px;
+        font-weight: bold;
+        font-size: 100px;
+        line-height: 100px;
+        display: inline-block;
+        color: #FFFFFF;
+        margin-right: 30px;
+    }
+    &__sub-link{
+        font-weight: bold;
+        font-size: 100px;
+        line-height: 100px;
+        text-decoration: none;
+        color:#F67E7E;
+    }
+    &__line{
+        width: 50px;
+        height: 4px;
+        background: #79C8C7;
+        margin-bottom: 79px;
+    }
+    &__text{
+        width: 445px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        
+        color: #FFFFFF;
+    }
+}

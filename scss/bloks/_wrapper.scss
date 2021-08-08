@@ -1,0 +1,70 @@
+.wrapper{
+    &__page{
+        background-image:url(../img/Group8.png);
+        background-repeat:no-repeat;
+        padding: 140px 165px 151px 165px;
+    }
+    &__title{
+        width: 932px;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;   
+        margin-bottom: 92px;
+    }
+    &__title-link{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        color: #79C8C7;
+        text-decoration: none;
+    }
+    &__list{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        position: relative;
+        margin-right: 30px;
+        text-align: center;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__comma{
+        position: absolute;
+        top: -30px;
+        left: 140px;
+    }
+    &__discription{
+        width: 350px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        color: #FFFFFF;
+    }
+    &__name{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 2px;
+        color: #79C8C7;
+        
+    }
+    &__text{
+        font-style: italic;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        margin-bottom: 32px;
+        color: #FFFFFF;
+    }
+}

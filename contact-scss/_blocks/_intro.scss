@@ -1,0 +1,180 @@
+.intro{
+    &__page{
+        background-color:  #014E56;
+        padding: 56px 165px 120px 165px;
+        display: flex;
+        align-items: center;
+    }
+    &__wrap{
+        margin-right: 30px;
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 100px;
+        margin-bottom: 16px;
+        color: #FFFFFF;
+    }
+    &__sub-title{
+        width: 540px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 48px;
+        color: #F67E7E;
+    }
+    &__list{
+        list-style-type: none;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        &:nth-child(1){
+            margin-bottom: 32px;
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &__discription{
+        padding:22px 0;
+        width: 445px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-left: 23px;
+    }
+    &__form{
+        width: 540px;
+    }
+    &__input-one{
+        width: 540px;
+        padding: 0 81px 17px 14px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        margin-bottom: 24px;
+        border-bottom-color: #fff;
+        background-color:#014E56;
+        &::placeholder{
+            width: 445px;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.115385px;
+            color: #FFFFFF;
+            opacity: 0.6;
+        }
+    }
+    &__input-two{
+        width: 540px;
+        padding: 0 81px 17px 14px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom-color: #fff;
+        background-color:#014E56;
+        margin-bottom: 24px;
+        &::placeholder{
+            width: 445px;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.115385px;
+            color: #FFFFFF;
+            opacity: 0.6;
+        }
+    }
+    &__input-three{
+        width: 540px;
+        padding: 0 81px 17px 14px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom-color: #fff;
+        background-color:#014E56;
+        margin-bottom: 24px;
+        &::placeholder{
+            width: 445px;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.115385px;
+            color: #FFFFFF;
+            opacity: 0.6;
+        }
+    }
+    &__input-four{
+        width: 540px;
+        padding: 0 81px 17px 14px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom-color: #fff;
+        background-color:#014E56;
+        margin-bottom: 24px;
+        &::placeholder{
+            width: 445px;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.115385px;
+            color: #FFFFFF;
+            opacity: 0.6;
+        }
+    }
+    &__textarea{
+        width: 540px;
+        padding: 0 81px 59px 14px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom-color: #fff;
+        resize:none;
+        background-color:#014E56;
+        margin-bottom: 24px;
+        &::placeholder{
+            width: 445px;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.115385px;
+            color: #FFFFFF;
+            opacity: 0.6;
+        }
+    }
+    &__bottom{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #004047;
+        padding: 9px 32px 11px 32px;
+        border-radius: 24px;
+        background-color:#fff;
+        
+    }
+}
+@media screen and (max-width:768px) {
+   .intro{
+    &__page{
+        display: flex;
+        flex-direction: column;
+        padding: 56px 126px 112px 127px;
+    }
+    &__title{
+        line-height: 56px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    &__sub-title{
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+    }
+    &__wrap{
+        margin: 0;
+        margin-bottom: 64px;
+    }
+   }
+}

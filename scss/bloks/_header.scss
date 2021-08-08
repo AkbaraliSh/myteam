@@ -1,0 +1,45 @@
+.header{
+    &__nav{
+        background-color: #014E56;
+        display: flex;
+        align-items: center;
+        padding: 73px 165px 65px 165px;
+    }
+    &__logo{
+        margin-right: 80px;
+        &:hover{
+            transition: 1s all 1.5;
+        }
+    }
+    &__list{        
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-right: 577px;
+    }
+    &__item{
+        margin-right: 40px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__link{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    &__btn{
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 24px;
+        background: #014E56;
+        padding: 9px 29px 11px 28px;
+        text-decoration: none;  
+    }
+}

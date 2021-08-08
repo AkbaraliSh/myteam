@@ -1,0 +1,138 @@
+.footer{
+    &__nav{
+        background: #002529;
+        padding: 48px 165px;
+        
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    &__item{
+        margin-right: 125px;
+        &:nth-child(1){
+            display: flex;
+            align-items: center;
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__logo{
+        width: 160px;
+        height: 40px;
+    }
+    &__list-one{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin-top: 25px;
+    }
+    &__item-one{
+        margin-right: 40px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__list-three{
+        width: 104px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin-bottom: 51px;
+        margin-left: auto;
+    }
+    &__item-three{
+        margin-right: 16px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__link-one{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    &__link-two{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        opacity: 0.6;
+        text-decoration: none;
+    }
+    &__item-one-discription{
+        width: 445px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin-left: 125px;
+    }
+    &__item-three-discription{
+        width: 261px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        
+        color: #FFFFFF;
+    }
+}
+@media screen and (max-width:768px) {
+    .footer{
+        &__list{
+            display: flex;
+            flex-direction: column;
+        }
+        &__list-one{
+            margin-top: 53px;
+        }
+        &__nav{
+            padding: 56px 40px 56px 39px;
+            
+        }
+        &__item{
+            margin-right: 0;
+            &:last-child{
+                display: flex;
+                align-items: center;
+                margin-right: 0;
+                margin-top: 33px;
+            }
+        }
+        &__logo{
+            width: 96px;
+            height: 24px;
+        }
+        &__item-one{
+            margin-right: 24px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        &__item-one-discription{
+            width: 280px;
+            text-align: right;
+            margin-left: 302px;
+        }
+        &__list-three{
+            margin: 0;
+        }
+        &__link-one{
+            font-size: 15px;
+            line-height: 25px;
+        }
+        &__link-two{
+            font-size: 15px;
+            line-height: 25px;
+        }
+        &__item-three-discription{
+            width: 255px;
+            margin-left: 330px;
+        }
+    }
+}
